@@ -1,0 +1,124 @@
+/* Basic styling for the container, header, and section elements */
+.container {
+    width: 99%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    border-bottom: #ff0000 4px solid;
+}
+
+.logo img {
+    position: fixed;
+    height: 80px;
+    top: 3%;
+    left: 18%;
+    opacity: .8;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+header .branding img {
+    margin-bottom: 15px;
+    margin-left: -6px;
+    margin-top: -30px;
+    height: 110px;
+}
+
+.branding span {
+    position: relative;
+    
+}
+
+#nav-container {
+    position: absolute;
+    margin-right: 211px;
+    top: 1%;
+}
+
+#nav-logo > a > img {
+    height: 109px;
+    object-fit: cover;
+    position: absolute;
+    left: 77pc;
+}
+
+#Home-links {
+    position: relative;
+    left: 22pc;
+    top: 84px;
+}
+header .hightlight, header .container a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+.opacity-80 {
+    opacity: 80;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: navy;
+    background-clip: text;
+    background-image: linear-gradient(to top, navy, transparent);
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: -0.17em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Styling for the services section */
+.services {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.services h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-list {
+    width: 40%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.service-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styling for the images section */
+#images {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border: 1px solid #ccc;
+}

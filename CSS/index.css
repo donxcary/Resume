@@ -1,0 +1,48 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    background-color: #ccc;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin: 5px 0;
+}
+
+.list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
