@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume website built with React and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "npm run server & npm run client",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install"
+  },
+  "keywords": ["resume", "react", "node", "express"],
+  "author": "Akoto Nana Ofori",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
