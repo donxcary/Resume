@@ -62,6 +62,14 @@ Resume/
    npm run install-client
    ```
 
+4. **(Optional) Configure environment variables**:
+   ```bash
+   cd client
+   cp .env.example .env
+   # Edit .env if you need to change the API URL
+   cd ..
+   ```
+
 ## Running the Application
 
 ### Development Mode
@@ -97,6 +105,19 @@ To run both the backend and frontend in development mode:
 
 - `GET /api/resume` - Returns complete resume data in JSON format
 - `GET /img/*` - Serves static image files
+
+## Configuration
+
+### Environment Variables
+
+The React frontend can be configured using environment variables:
+
+- `VITE_API_URL` - The URL of the backend API (default: `http://localhost:5000`)
+
+To configure for production:
+1. Copy `client/.env.example` to `client/.env`
+2. Set `VITE_API_URL` to your production backend URL
+3. Run `npm run build` to rebuild with the new configuration
 
 ## Available Scripts
 

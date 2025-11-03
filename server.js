@@ -44,7 +44,7 @@ app.get('/api/resume', (req, res) => {
     ],
     objective: 'I intend to apply highest level of ethics and professional standard in executing my duties and the realization of organizational goals.',
     personalTraits: [
-      'Effect team player',
+      'Effective team player',
       'Good interpersonal relations and communications skills',
       'Ability to meet tight deadlines and working under pressure',
       'Dedicated to work',
